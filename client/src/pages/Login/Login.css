@@ -1,0 +1,67 @@
+.Login{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgb(139, 139, 139);
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Login h2{
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    color: red;
+}
+.inp-box{
+    width: 220px;
+    border: none;
+    border-bottom: 1px solid rgb(53, 52, 52);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin-top: 40px;
+    outline: none;
+}
+
+
+.inp-btn{
+    width: 230px;
+    height: 40px;
+    background-color: rgb(207, 1, 1);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+.footer{
+    display: flex;
+    font-size: 11px;
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+.forget-pass{
+    margin-left: 40px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: red;
+
+}
+.sign-btn{
+    margin-left: 40px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: #000000;
+}

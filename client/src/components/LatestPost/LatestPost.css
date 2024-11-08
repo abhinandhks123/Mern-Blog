@@ -1,0 +1,140 @@
+
+.LatestPost{
+    width: 1280px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.latest-posts{
+    display: flex;
+}
+.latest-post-h{
+    margin-left:90px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.row3{
+    display: flex;
+    overflow-y: scroll;
+    margin-left: 50px;
+
+}
+.popular-post-h{
+    margin-left:90px;
+    margin-top: 12px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.row3{
+    display: flex;
+    overflow: scroll;
+
+}
+.card3{
+    width: 260px;
+    height: 220px;
+    box-shadow: 2px 4px 8px rgb(175, 175, 175) ;
+    border: 2px solid rgb(196, 196, 196);
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 40px;
+   
+
+}
+
+.card-img-body{
+    width: 248px;   
+    height: 120px;
+    margin: 5px;
+    
+}
+.card-title{
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    margin-top: 0px;
+    height: 30px;
+    
+}
+.save{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.save i{
+    font-size: 20px;
+    margin-left: 200px;
+    
+    
+}    
+
+
+
+.row3 {
+    overflow: scroll; /* Enable scrolling */
+    scrollbar-width: none; /* For Firefox */
+}
+
+.row3::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+
+.card-header{
+    display: flex;
+}
+.ac-post{
+    display: flex;
+    font-size: 18px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    height: 20px;
+    width: 60%;
+
+}
+
+.fas{
+    margin-top: 2px;
+    margin-left: 15px;
+}
+.ac-post p{
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.dot-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 40%;
+  }
+.dot {
+    width: 3px;
+    height: 3px;
+    background-color: #585858;
+    border-radius: 50%;
+    margin: 1px 0;
+    margin-left: 80px;
+
+  }
+  
+  
+.like-button{
+    display: flex;
+    margin-left: 0px;
+    width: 40px;
+    height: 50px;
+}
+.like-button span{
+    margin-top: 1px;
+    margin-left: 5px;
+}
